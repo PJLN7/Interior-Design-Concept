@@ -43,3 +43,30 @@ main {
   bottom: 0;
   left: 50%;
 }
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-bar {
+  height: 100%;
+  width: 40%;
+  background: black;
+}
+
+#right-bar {
+  height: 50%;
+  width: 40%;
+  background: black;
+}
