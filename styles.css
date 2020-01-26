@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: 'Alatsi', sans-serif;
 }
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.lamp-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
