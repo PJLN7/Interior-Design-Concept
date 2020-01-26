@@ -36,12 +36,31 @@ main {
 }
 
 .right-overlay {
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right-overlay-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bottom-box {
   width: 200px;
   height: 150px;
-  background: black;
+  background: #2b2b2b;
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 0;
+  padding: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-line {
@@ -79,6 +98,7 @@ main {
 
 #number {
   font-size: 5rem;
+  color: #e0e0e0;
 }
 
 #description {
@@ -99,4 +119,18 @@ main {
   height: 50%;
   width: 40%;
   background: black;
+}
+
+#right-overlay-top-line {
+  font-size: 0.75rem;
+}
+
+.right-overlay-text-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+#right-overlay-bottom-arrow {
+  color: #595959;
 }
