@@ -63,6 +63,20 @@ main {
   justify-content: space-between;
 }
 
+#right-middle-text {
+  color: white;
+  border-bottom: 1px solid white;
+  max-width: 10%;
+  text-align: center;
+  padding: 2%;
+  font-size: 0.75rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: rotate(-90deg);
+  margin-left: 1%;
+}
+
 .top-line {
   display: flex;
   justify-content: space-between;
